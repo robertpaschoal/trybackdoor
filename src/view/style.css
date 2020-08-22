@@ -21,10 +21,32 @@ body {
     height: 100vh; 
     width: 100vw;
 
+    transition: background .7s;
+
     display: flex; /* Centraliza no cento da tela */
-    flex-direction: column; /* O fluxo do body fica em coluna, o padrão é row */
     justify-content: center; /* centraliza no eixo x */
     align-items: center; /* centraliza no eixo y */
 
+    background-color: var(--background-color);
+}
+
+.setings {
+    margin-left: 15px;
+}
+
+.setings .slider {
+    width: 50px;
+    -webkit-appearance: none;
+    border-radius: 30px;
+    background-color: var(--blue-color);
+    padding: 5px;
+}
+
+.setings .slider::-webkit-slider-thumb {
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
     background-color: var(--background-color);
 }
