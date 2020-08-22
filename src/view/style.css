@@ -1,0 +1,30 @@
+:root { 
+    --background-color: #f0f3bd;
+    --font-color: black;
+    --green1-color: #02c39a;
+    --green2-color: #00a896;
+    --green3-color: #028090;
+    --blue-color: #05668d; 
+
+    /* dento do root fica todas as varievis */
+}
+
+* { /* (*) Sifgnifia para todos os elemntos do HTML */
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh; 
+    width: 100vw;
+
+    display: flex; /* Centraliza no cento da tela */
+    flex-direction: column; /* O fluxo do body fica em coluna, o padrão é row */
+    justify-content: center; /* centraliza no eixo x */
+    align-items: center; /* centraliza no eixo y */
+
+    background-color: var(--background-color);
+}
