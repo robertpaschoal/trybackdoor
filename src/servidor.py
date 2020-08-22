@@ -22,7 +22,7 @@ T1 = datetime.now()
 
 #Funtions
 def scan():
-
+	print('scan')
 
 def ddos():
 	Alvo = str(input("Target:"))
